@@ -96,9 +96,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Priyananda T: [Specific contributions]
+- Shifa Fathima K: [Specific contributions]
+- Likhitha S: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub
