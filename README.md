@@ -11,7 +11,7 @@
 - Member 3: [LIKHITHA S] - [COLLEGE OF ENGINEERING THIRUVANTHAPURAM]
 
 ### Hosted Project Link
-http://127.0.0.1:5000
+NOT HOSTED
 
 
 ### Project Description
@@ -58,14 +58,26 @@ For Software:
 ![Screenshot1](Add screenshot 1 here with proper name)
 ![image](https://github.com/user-attachments/assets/1e85cdf9-95ae-4cfd-8cff-22aab1e69657)
 HOMEPAGE OF THE PROJECT
-*Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![image](https://github.com/user-attachments/assets/26c1b0e5-92f9-4807-b6bd-4ed0ab75a530)
+SIGNUP PAGE
 
 ![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![image](https://github.com/user-attachments/assets/7ddbcef9-7240-4677-9062-631ae6500596)
+FINANCIAL DASHBOARD TO TRACK EXPENSE
 
+
+![Screenshot4](Add screenshot 3 here with proper name)
+![image](https://github.com/user-attachments/assets/3dcb7384-49d1-412e-afff-cdf4bd9f2683)
+ADDING EXPENSE
+
+![Screenshot5](Add screenshot 3 here with proper name)
+![image](https://github.com/user-attachments/assets/3dcb7384-49d1-412e-afff-cdf4bd9f2683)
+ADDING EXPENSE
+
+
+FINANCIAL DASHBOARD TO TRACK EXPENSE
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
