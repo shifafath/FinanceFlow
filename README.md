@@ -1,14 +1,14 @@
-# [Project Name] 🎯
+# [FINANCE FLOW] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [HACKHIVE]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [PRIYANANDA T] - [COLLEGE OF ENGINEERING THIRUVANTHAPURAM]
+- Member 2: [SHIFA FATHIMA K] - [COLLEGE OF ENGINEERING THIRUVANTHAPURAM]
+- Member 3: [LIKHITHA S] - [COLLEGE OF ENGINEERING THIRUVANTHAPURAM]
 
 ### Hosted Project Link
 [mention your project hosted project link here]
@@ -17,18 +17,20 @@
 [2-3 lines about what your project does]
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+[Problem Statement:
+Managing personal finances effectively is a challenge for many individuals. People often struggle with tracking their monthly income, expenses, and savings, leading to overspending and poor financial planning. The lack of a clear and organized system to monitor and analyze financial data makes it difficult to achieve short-term and long-term financial goals. This creates a need for a user-friendly platform that can help individuals monitor their finances, control their expenditures, and make informed financial decisions.
+ The platform will assist users in managing their finances efficiently and improving their overall financial literacy.]
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+[Say goodbye to financial confusion! Our Finance Tracker is your personal money guru, helping you track expenses, set budgets, and save smartly. With interactive charts and spending insights, it makes managing money fun and stress-free. Transform your financial habits effortlessly and achieve your goals like a pro, one click at a time!]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [HTML,CSS,JAVASCRIPT,PYTHON]
+- [FLASK(python),Jinja2]
+- [chart.js,Firebase]
+- [Fiebase(for authentication ,for real time database),VS code,GitHub]
 
 For Hardware:
 - [List main components]
@@ -38,10 +40,13 @@ For Hardware:
 ### Implementation
 For Software:
 # Installation
-[commands]
+[1.npm install firebase
+2.pip install flask
+3.pip install firebase-admin
+]
 
 # Run
-[commands]
+[1.python app.py]
 
 ### Project Documentation
 For Software:
