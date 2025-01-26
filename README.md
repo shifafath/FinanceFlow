@@ -106,7 +106,8 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+https://github.com/shifafath/FinanceFlow/blob/main/FINANCEFLOW.mp4
+The video demonstrates the working of the website FINANCEFLOW
 *Explain what the video demonstrates*
 
 # Additional Demos
