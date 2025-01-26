@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinanceFlow - Personal Finance Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 30px; height: 30px;">
+                <path d="M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2h0V5z"/>
+                <path d="M2 9v1c0 1.1.9 2 2 2h1"/>
+                <path d="M16 11h0"/>
+            </svg>
+            <h1>FinanceFlow</h1>
+        </div>
+
+        <p class="tagline">Track your monthly finances with ease and precision</p>
+
+        <div class="features">
+            <p>Features include:</p>
+            <ul>
+                <li>✓ Monthly expense tracking</li>
+                <li>✓ Budget planning tools</li>
+                <li>✓ Visual spending analytics</li>
+                <li>✓ Savings goals tracker</li>
+            </ul>
+        </div>
+
+        <!-- Buttons to navigate to Sign In and Sign Up pages -->
+
+        <div class="buttons">
+            <button class="button primary" onclick="window.location.href='/signup'">Sign Up</button>
+            <button class="button secondary" onclick="window.location.href='/signin'">Sign In</button>
+        </div>
+<!--      
+<div class="buttons">
+    <button class="button primary" onclick="window.location.href='{{ url_for('signup') }}'">Sign Up</button>
+    <button class="button secondary" onclick="window.location.href='{{ url_for('signin') }}'">Sign In</button>
+</div>
+-->
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

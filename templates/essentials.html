@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monthly Essentials Setup</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='essentials.css') }}">
+</head>
+<body class="min-h-screen bg-gradient-to-b">
+  <div class="card">
+    <h1 class="text-xl font-bold" style="color: #6E59A5">Set Monthly Essentials</h1>
+    <form id="expenseForm" class="form-container">
+    <div class="space-y-4">
+      <!-- Month Selector -->
+      <div>
+        <label for="month" class="label" style="color: #8B5CF6">Select Month:</label>
+        <select id="month" class="input"></select>
+      </div>
+
+      <!-- Essentials Inputs -->
+      <div>
+        <h2 class="text-lg font-semibold" style="color: #6E59A5">Essentials</h2>
+        <div class="grid gap-4">
+          <div>
+            <label for="electricity" class="label" style="color: #8B5CF6">Electricity:</label>
+            <input id="electricity" type="number" class="input" placeholder="Enter amount" />
+          </div>
+          <div>
+            <label for="utilities" class="label" style="color: #8B5CF6">Utilities:</label>
+            <input id="utilities" type="number" class="input" placeholder="Enter amount" />
+          </div>
+          <div>
+            <label for="rent" class="label" style="color: #8B5CF6">Rent (Optional):</label>
+            <input id="rent" type="number" class="input" placeholder="Enter amount" />
+          </div>
+        </div>
+        
+        <button type="submit" class="submit-btn">Save Essentials</button>
+        
+    </form>
+  </div>
+
+  <script src="{{ url_for('static', filename='essentials.js') }}"></script>
+</body>
+</html>

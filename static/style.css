@@ -1,0 +1,200 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, white, #D6BCFA);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 24px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    color: #9b87f5;
+}
+
+h1 {
+    font-size: 48px;
+    color: #1A1F2C;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 48px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features {
+    margin-bottom: 32px;
+}
+
+.features p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.features ul {
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.features li {
+    margin: 8px 0;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    min-width: 150px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.primary {
+    background-color: #9b87f5;
+    color: white;
+    border: none;
+}
+
+.primary:hover {
+    background-color: #8b77e5;
+}
+
+.secondary {
+    background-color: #F1F1F1;
+    color: #1A1F2C;
+    border: 1px solid #E1E1E1;
+}
+
+.secondary:hover {
+    background-color: #E1E1E1;
+}
+
+/* Toast Notification */
+.toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    padding: 16px 24px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: none;
+    animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+/* Form Styling for Sign In and Sign Up */
+#signup-form, #signin-form {
+    margin: 20px 0;
+}
+
+#signup-form input, #signin-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#signup-form button, #signin-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#signup-form button:hover, #signin-form button:hover {
+    background-color: #0056b3;
+}
+
+#signup-form p, #signin-form p {
+    color: #666;
+    margin-top: 10px;
+}
+
+#signup-form span, #signin-form span {
+    color: #007bff;
+    cursor: pointer;
+}
+
+#signup-form span:hover, #signin-form span:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styling */
+@media (max-width: 640px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .tagline {
+        font-size: 20px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .button {
+        width: 100%;
+    }
+}

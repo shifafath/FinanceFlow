@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Buddy Goal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style3.css') }}">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Set Your Monthly Budget Goal</h1>
+            <p>Plan your expenses and track your progress toward financial stability.</p>
+        </div>
+
+        <div class="grid">
+            <div class="column">
+                <div class="card budget-form">
+                    <h2>Monthly Budget</h2>
+                    <form id="budgetForm">
+                        <div class="input-group">
+                            <span class="dollar-sign">$</span>
+                            <input 
+                                type="number" 
+                                id="budgetInput" 
+                                placeholder="Enter your monthly budget" 
+                                min="0" 
+                                step="0.01">
+                        </div>
+                        <div class="real-time-stats">
+                            <p>Spent: <span id="realTimeSpent">$0.00</span></p>
+                            <p>Remaining: <span id="realTimeRemaining">$0.00</span></p>
+                        </div>
+                        <button type="submit" class="button">Set Budget Goal</button>
+                    </form>
+                </div>
+
+                <div class="card savings-card">
+                    <h3>Current Savings</h3>
+                    <div class="savings-amount">$500</div>
+                    <div class="savings-goal">Goal: $1,000</div>
+                </div>
+            </div>
+
+            <div class="card progress-section">
+                <h2>Budget Progress</h2>
+                <div class="progress-bar">
+                    <div class="progress" id="progressBar"></div>
+                </div>
+                
+                <div class="stats">
+                    <div>
+                        <p>Spent</p>
+                        <p id="spentAmount" class="amount">$0.00</p>
+                    </div>
+                    <div>
+                        <p>Remaining</p>
+                        <p id="remainingAmount" class="amount">$0.00</p>
+                    </div>
+                </div>
+
+                <p id="progressText" class="progress-text"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+    <script src="{{ url_for('static', filename='script3.js') }}"></script>
+
+</body>
+</html>
