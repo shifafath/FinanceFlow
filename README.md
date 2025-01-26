@@ -72,9 +72,7 @@ FINANCIAL DASHBOARD TO TRACK EXPENSE
 ![image](https://github.com/user-attachments/assets/3dcb7384-49d1-412e-afff-cdf4bd9f2683)
 ADDING EXPENSE
 
-![Screenshot5](Add screenshot 3 here with proper name)
-![image](https://github.com/user-attachments/assets/3dcb7384-49d1-412e-afff-cdf4bd9f2683)
-ADDING EXPENSE
+
 
 
 FINANCIAL DASHBOARD TO TRACK EXPENSE
