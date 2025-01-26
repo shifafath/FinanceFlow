@@ -11,10 +11,12 @@
 - Member 3: [LIKHITHA S] - [COLLEGE OF ENGINEERING THIRUVANTHAPURAM]
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+http://127.0.0.1:5000
+
 
 ### Project Description
-[2-3 lines about what your project does]
+FinanceFlow is a web application that helps users manage their monthly budget and track their spending. The platform enables users to set their monthly budget, record their expenses, and view real-time insights into their spending habits.
+
 
 ### The Problem statement
 [Problem Statement:
@@ -52,7 +54,10 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
+
 ![Screenshot1](Add screenshot 1 here with proper name)
+![image](https://github.com/user-attachments/assets/1e85cdf9-95ae-4cfd-8cff-22aab1e69657)
+HOMEPAGE OF THE PROJECT
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
